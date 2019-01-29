@@ -10,3 +10,6 @@ The difference between working directory, staging area and repository is the chr
 The importance of staging area lies in the fact that it allows us to dynamically operate on only the files essential to the codebase, not the whole directory.
 
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+By only adding those files to the staging area which contain a logical addition and committing it. I shall repeat the same for multiple files varying over multiple logical changes.
