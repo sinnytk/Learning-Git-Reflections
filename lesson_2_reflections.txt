@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository using 'git init', a .git file is created within the directory.
+This .git file contains all the metadata regarding the history of your repository updates(commits). 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is basically the intermediate stage where the pre-deployment bundling happens. Staging Area could be called the packaging stage(in logistics) of repositories where you may add the files you want to track status of or work on. 
+The difference between working directory, staging area and repository is the chronological order of source. At beginning all our files are in the working directory(the folder), from there we initialize a git repository and to do that, we perform the addition of files into the staging area and deploy them into the final repository.
+The importance of staging area lies in the fact that it allows us to dynamically operate on only the files essential to the codebase, not the whole directory.
+
+
