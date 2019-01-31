@@ -18,6 +18,13 @@ What are some situations when branches would be helpful in keeping your history 
 
 Branches could help when I am trying to create an alternative version of my project, where I may restructure the logics or the flow of my project.
 Some use-cases of branching:
-Changing the language of a project
-Feature branches to work on by multiple people
-Experimental branches(lab rats)
+• Changing the language of a project
+• Feature branches to work on by multiple people
+• Experimental branches(lab rats)
+• Alternative versions
+
+How do the diagrams help you visualize the branch structure?
+The commit tree(or a the git log) usually gets weird as you commit or checkout on a previous commit. Diagrams help visualize what a detached-head warning means(we're going sideways on a previous commit without creating branch, making it easy to make those commits unreachable) and why it's important to create branches in order avoid unreachable state.
+
+Diagrams also help us visualize how a git branch works being completely separated from the master(production-level) branch.
+
