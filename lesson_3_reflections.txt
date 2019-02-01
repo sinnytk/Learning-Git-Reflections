@@ -6,4 +6,12 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Pulling changes manually is a good alternative to automation as we know what we're going to update our source code with.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Branches: 	Whenever you think you want to take your running project into a different stream, you create a branch. Branch is a complete copy of your local repository which you checkout and all the commits are updated to this branch during the checkout.
+
+Clones: 	A clone of a remote or local repository which is saved locally on your directory. Use git clone "url" to do it.
+
+Forks:		Similar to clone, but a clone of another remote repository to your GitHub account. We can achieve similar results with git clone and git push, however if you want to give credits to the original author and further his work, you may use forking.
+
 
