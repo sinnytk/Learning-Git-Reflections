@@ -38,3 +38,4 @@ What are the pros and cons of Git’s automatic merging vs. always doing merges 
 Whereas Git's automatic merge saves a lot of time for insertions, it usually messes up during the deletions or modifications of the original source.
 
 Therefore it's always recommended to double check Git's merging.
+
