@@ -33,3 +33,8 @@ What is the result of merging two branches together? Why do we represent it in t
 After the branches are merged, the branch merges into the master and becomes the new head of the current branch. The commits between each branch are sorted chronologically.
 The diagram shows that the flow of two branches was separate and was merged in a commit.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Whereas Git's automatic merge saves a lot of time for insertions, it usually messes up during the deletions or modifications of the original source.
+
+Therefore it's always recommended to double check Git's merging.
