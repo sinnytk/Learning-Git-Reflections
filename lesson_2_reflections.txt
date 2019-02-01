@@ -28,3 +28,7 @@ The commit tree(or a the git log) usually gets weird as you commit or checkout o
 
 Diagrams also help us visualize how a git branch works being completely separated from the master(production-level) branch.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+After the branches are merged, the branch merges into the master and becomes the new head of the current branch. The commits between each branch are sorted chronologically.
+The diagram shows that the flow of two branches was separate and was merged in a commit.
