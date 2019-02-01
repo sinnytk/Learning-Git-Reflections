@@ -1,32 +1,32 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
-Instead of going through each and every line of code to find the difference,
-I could simply see all the lines that differed between the two sources.
-This helped me efficiently find the bug in the differing lines only, not the whole code.
+	Instead of going through each and every line of code to find the difference,
+	I could simply see all the lines that differed between the two sources.
+	This helped me efficiently find the bug in the differing lines only, not the whole code.
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-It'll easily help me get back to a version which was working properly or had the desired outcome in order to follow my steps back and fix the bug.
+	It'll easily help me get back to a version which was working properly or had the desired outcome in order to follow my steps back and fix the bug.
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
 
-I feel that I have more logical control over the versions that I want to save. This way each logical unit addition to the source code will have a different version which will help me navigate the progression properly.
+	I feel that I have more logical control over the versions that I want to save. This way each logical unit addition to the source code will have a different version which will help me navigate the progression properly.
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
-Some version control system, such as Git are programming oriented and treat multiple related files as a single repository, whereas VCS like Google Docs don't neccessarily require version control across multiple files as we don't work on multiple documents(non-programming, that is) at the same time.
+	Some version control system, such as Git are programming oriented and treat multiple related files as a single repository, whereas VCS like Google Docs don't neccessarily require version control across multiple files as we don't work on multiple documents(non-programming, that is) at the same time.
 
 How can you use the commands git log and git diff to view the history of files?
 
-The 'git log' command allows us to view all the commit history of a repository, we may use to find a specific logical addition or change in our code so that we may begin working on from that commit(each commit has a unique ID).
-Whereas 'git diff' command is a binary function which takes two commit IDs as arguments and tells us the difference between the two, i.e lines added and/or deleted.
-Similar to Windows 'fc' console command.
+	The 'git log' command allows us to view all the commit history of a repository, we may use to find a specific logical addition or change in our code so that we may begin working on from that commit(each commit has a unique ID).
+	Whereas 'git diff' command is a binary function which takes two commit IDs as arguments and tells us the difference between the two, i.e lines added and/or deleted.
+	Similar to Windows 'fc' console command.
 
 How might using version control make you more confident to make changes that could break something?
 
-If I have followed the 'one commit per logical change' norm for frequency of commmits, I'd have previous versions of my code to work with easily and find the commit where the bug creeped into my code and checkout to that time and fix my code.
-
-This way I can confidently mess around with my code and add functions without the fear of reaking my code.
+	If I have followed the 'one commit per logical change' norm for frequency of commmits, I'd have previous versions of my code to work with easily and find the commit where the bug creeped into my code and checkout to that time and fix my code.
+	This way I can confidently mess around with my code and add functions without the fear of reaking my code.
 
 Now that you have your workspace set up, what do you want to try using Git for?
-Upload all my projects and start working on the Android Development course perhaps.
+
+	Upload all my projects and start working on the Android Development course perhaps.
