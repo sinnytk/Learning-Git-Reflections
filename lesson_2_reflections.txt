@@ -32,3 +32,4 @@ What is the result of merging two branches together? Why do we represent it in t
 
 After the branches are merged, the branch merges into the master and becomes the new head of the current branch. The commits between each branch are sorted chronologically.
 The diagram shows that the flow of two branches was separate and was merged in a commit.
+
